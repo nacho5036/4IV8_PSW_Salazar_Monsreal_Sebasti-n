@@ -1,0 +1,88 @@
+.name {
+    border: solid 5px rgb(199, 186, 0);
+    margin: 0 auto;
+    padding: 7px;
+    width:fit-content;
+    
+
+}
+.body{
+    background-image: url(../images/bg.jpg);  
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+.fieldset{
+    margin-bottom: 10px;
+}
+.legend{
+    border: solid 3px rgb(79, 228, 228);
+    padding: 5px;
+    font-weight: bold;
+
+    background: rgb(38, 0, 255);
+}
+.foto{
+    margin: 5px;
+    align-content: center; 
+    border:rgb(255, 255, 255)
+    
+}
+
+.PInfo {
+    border: solid 5px rgb(0, 119, 199);
+    margin: 0 auto;
+    padding: 7px;
+    width:fit-content;
+    background-color: rgb(56, 15, 240);
+}
+.social {
+    border: solid 5px rgb(80, 199, 0);
+    margin: 0 auto;
+    padding: 7px;
+    width:fit-content;
+    background-color: rgb(86, 240, 14);
+}
+.educ {
+    border: solid 5px rgb(199, 40, 0);
+    margin: 0 auto;
+    padding: 7px;
+    width:fit-content;
+    background-color: rgb(13, 218, 64);
+}
+
+.lang {
+    border: solid 5px rgb(0, 199, 33);
+    margin: 0 auto;
+    padding: 7px;
+    width:fit-content;
+    background-color: rgb(25, 22, 204);
+}
+
+.exp {
+    border: solid 5px rgb(199, 186, 0);
+    margin: 0 auto;
+    padding: 7px;
+    width:fit-content;
+    background-color: rgb(255, 255, 255);
+}
+
+@keyframes animacion_test{
+    from{
+        background-color: aquamarine; 
+    }
+    to{
+        background-color: rgb(1, 0, 8);
+    }
+}
+
+.animation{
+    width: 100%;
+    background-color: aquamarine;
+    color: darkmagenta; 
+    text-align: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    animation: animacion_test 2s alternate infinite;
+}
