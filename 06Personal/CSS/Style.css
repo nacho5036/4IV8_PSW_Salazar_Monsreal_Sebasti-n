@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../images/fondo1.jpg); 
+    background-size: cover;
+    color: rgb(0, 0, 0); 
+} 
+
+h1 { 
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px
+}
+
+nav ul {
+    background-color: blueviolet; 
+    width: 100%; 
+    list-style-type: none;
+    text-align: center; 
+}
+
+nav li {
+    display: inline-flex; 
+}
+
+nav a {
+    text-decoration: none; 
+    color: black;
+    padding: 10px;
+    width: 150px; 
+}
+
+nav li:hover { 
+    background-color: darkred;  
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-left: 60px;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.contenido {
+    display: flex;
+    margin: 60px;
+} 
+
+.quienes-somos {
+    width: 80%;
+    border-right: 3px;
+    border-left: 3px;
+}
+
+.historia {
+    display: flex; 
+    align-items: center;
+    padding: 40px; 
+}
+
+h2 {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Courier New';
+    color: white;
+    padding: 20px 
+}
+p {
+    color: white; 
+    margin-left: 60px;
+    font-size: larger; 
+    font-family: 'Courier New'; 
+    margin-top: 60px;
+}
+
+.regreso {
+    text-decoration: none;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New';
+    color: white;
+    padding: 20px    
+}
+
+
+
+footer {
+    font-size: medium; 
+    font-family: 'Courier New'; 
+    color: indigo; 
+ 
+}
+
+h3 {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Courier New';
+    color: white;
+    padding: 20px 
+
+}
+
+.contenedor-form{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    color: white; 
+}
+
+label{
+    color: white; 
+}
+
+.contenedor1{
+    float: left;
+    margin: auto; 
+}
