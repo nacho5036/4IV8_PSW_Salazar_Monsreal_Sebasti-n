@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+}
+
+.header{
+    height: 6vmax;
+    width: 222vh;
+    background-color: #002973;
+    text-align: center;
+    padding-top: 7vh;
+    color: rgb(20, 255, 126);
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 11vh; 
+}
+
+.body{ 
+    width: 222vh;
+    background-color: #12c28d;
+    padding-top: 10vh;
+}
+
+.footer{
+    height: 8vmax;
+    width: 222vh;
+    background-color: #3621f3;
+}
+
+.tabla{
+    border: #005c73 solid 3px;
+    width: 150vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto1{
+    height: 5vh;
+    border: #007373 solid 3px;
+    text-align: center;
+    padding-top: 2vh;
+    font: normal bold 2vh/1 'Courier New', Courier, monospace;
+}
+.texto2{
+    height: 10vh;
+    border: #007373 solid 3px;
+    text-align: center;
+    padding-top: 6vh;
+    font: normal bold 2vh/1 'Courier New', Courier, monospace; 
+}
+
+.input{
+    width: 20vh;
+}
+
+#calcular{
+    height: 8vh;
+    width: 29vh;
+    margin-top: 3vh;
+    margin-left: 156vh;
+    background: url(../img/fondo.jpg); 
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10vh;    
+}
+
+#footer{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium; 
+    margin-left: 3vh;
+    padding-top: 2vh;
+}
