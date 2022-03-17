@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title> 
+    <link rel="stylesheet" href="../09EjerciciosJS/css/style.css"> 
+    <script src="../09EjerciciosJS/JS/ej4.js"></script>
+</head>
+<body>
+    <div class="container" >
+        <!-- Problema 4 -->
+        <div class="problema-container" >
+            <h2 class="problema-title" >Problema #4</h2>
+            <h3> Un alumno desea saber su calificacion en la materia de algoritmos.
+                Dicha calificacion se compone de los siguientes porcentajes:
+                <br>
+                55% del promedio de sus tres calificaciones parciales
+                <br>
+                30% de la calificacion del examen final
+                <br>
+                15% de la calificacion de un trabajo final 
+            </h3>
+            <div class="problema-content" > 
+                    <div>
+                        <table style="width: 100%;">
+                            <tr>
+                                <th>Primer Parcial</th>
+                                <th>Segundo Parcial</th>
+                                <th>Tercer Parcial</th> 
+                                <th>Examen final</th>
+                                <th>Trabajo final</th>
+                                <th>Calificación final</th> 
+                            </tr>
+
+                            <tr>
+                                <td><input type="number" name="P1" id="p1"></td>
+                                <td><input type="number" name="P2" id="p2"></td>
+                                <td><input type="number" name="P3" id="p3"></td> 
+                                <td><input type="number" name="ExamenF" id="Examen_Final"></td>
+                                <td><input type="number" name="TrabajoF" id="Trabajo_Final"></td>
+                                <td><span id="Calificacion_Final"></span></td>
+                            </tr>
+
+                        </table>
+                        
+                        <button class="boton" onclick="Calcular();">Calcular</button>
+                 
+            </div>
+        </div>
+    
+    
+</body>
+</html>

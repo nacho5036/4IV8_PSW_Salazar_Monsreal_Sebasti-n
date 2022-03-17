@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <link rel="stylesheet" href="../09EjerciciosJS/css/style.css"> 
+    <script src="..//09EjerciciosJS/JS/ej5.js"></script> 
+</head>
+<body>
+    <div class="container" >
+        <!-- Problema 1 -->
+        <div class="problema-container" >
+            <h2 class="problema-title" >Problema #5</h2>
+            <h3> Un maestro desea saber que porcentaje de hombres y que porcentaje de mujeres 
+                hay en un grupo de estudiantes. 
+            </h3>
+            <div class="problema-content" > 
+                    <div>
+                        <table style="width: 100%;">
+                            <tr>
+                                <th>Total de alumnos</th>
+                                <th>Totak de alumnos hombres</th>
+                                <th>Total de alumnas mujeres</th> 
+                                <th>Porcentaje de hombres: </th>
+                                <th>Porcentaje de mujeres: </th>
+                            </tr>
+            
+                            <tr>
+                                <td><input type="number" name="Total" id="Total_Alumnos"></td> 
+                                <td><input type="number" name="M" id="Hombres"></td>
+                                <td><input type="number" name="F" id="Mujeres"></td> 
+                                <td><span id="PM"></span></td> 
+                                <td><span id="PF"></span></td>
+                            </tr>
+                        </table>
+                        
+                        <button class="boton" onclick="Calcular();">Calcular </button>
+                 
+            </div>
+        </div>
+    
+</body>
+</html>
