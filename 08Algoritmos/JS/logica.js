@@ -10,6 +10,7 @@ function problema1(){
     });
 
     document.querySelector('#p1-output').textContent = p1_res; 
+    
 }
 
 //Problema 2 
